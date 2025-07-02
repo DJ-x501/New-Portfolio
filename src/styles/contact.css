@@ -1,0 +1,50 @@
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+}
+.contactHead{
+    color: royalblue;
+    font-size: 56px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.contactSubHead{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 60px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.hline{
+    color: royalblue;
+    /* box-shadow: 0 0 10px royalblue; */
+}
+.iconContainer{
+    margin: 60px 00px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 40px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    gap: 10px;
+}
+.ContactText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

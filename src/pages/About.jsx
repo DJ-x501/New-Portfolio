@@ -1,5 +1,8 @@
 import React from 'react'
 import '../styles/about.css';
+import eCommerce from '../assets/e-commerce.png';
+import portfolio from '../assets/portfolio.png';
+import authPage from  '../assets/authPage.png';
 import { BookAIcon, BookDown, BookDownIcon, Clock1Icon, GitCommitVertical, Microscope } from 'lucide-react';
 
 const About = () => {
@@ -7,19 +10,19 @@ const About = () => {
           {
               name: "E-Commerce Website",
               description: "A full-stack MERN e-commerce app with product listing, cart.",
-              // image: eCommerce,
+              image: eCommerce,
               link: "https://e-commerce-ten-livid-88.vercel.app/"
           },
           {
               name: "Portfolio Website",
               description: "Personal portfolio built with React showcasing skills, projects, and contact details.",
-              // image: portfolio,
+              image: portfolio,
               link: "https://portfolio-website-iota-two-13.vercel.app/"
           },
           {
               name:"Auth-App",
-              description:"Note: this app is still in progress.......",
-              // image:authPage,
+              description:"Note: this app is in the  making sometime soon this will end",
+              image:authPage,
               link:"not ready yet"
           }
       ];
@@ -28,7 +31,7 @@ const About = () => {
     <>
       <div className="education">
         <div className="eduHead">
-          <BookAIcon height={36} width={36}  color='white' />    Education
+          <BookAIcon height={36} width={36}  color='white'/> Education
         </div>
         <div className="eduContent">
 
@@ -109,7 +112,7 @@ const About = () => {
                 {projects.map((project, index) => (
                     <div className="projectCard" key={index}>
                         <div className="projectImage">
-                            {/* <img src={project.image} alt={project.name} /> */}
+                            <img src={project.image} alt={project.name} />
                         </div>
                         <div className="projectInfo">
                             <h2>{project.name}</h2>

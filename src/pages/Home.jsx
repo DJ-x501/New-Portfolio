@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { GitBranch, Linkedin, Mail, Mails, MonitorCheck, MoveRightIcon, Phone } from 'lucide-react';
+import { GitBranch, Linkedin, Mail, Mails, MonitorCheck, MoveRightIcon, Phone, MapIcon, PhoneIcon,BookAIcon, BookDown, BookDownIcon, Clock1Icon, GitCommitVertical, Microscope} from 'lucide-react';
 import css from '../assets/css-3.png';
 import mongo from '../assets/database.png';
 import html from '../assets/html.png';
@@ -13,7 +13,10 @@ import api from '../assets/api.png';
 import github from '../assets/github.png';
 import code from '../assets/code.png';
 import git from '../assets/git.png';
-import profile from '../assets/profile.jpg'
+import profile from '../assets/profile.jpg';
+import eCommerce from '../assets/e-commerce.png';
+import portfolio from '../assets/portfolio.png';
+import authPage from  '../assets/authPage.png';
 
 const Home = () => {
     const skills = [
@@ -83,6 +86,26 @@ const Home = () => {
                 images: code
             },
         ];
+        const projects = [
+                  {
+                      name: "E-Commerce Website",
+                      description: "A full-stack MERN e-commerce app with product listing, cart.",
+                      image: eCommerce,
+                      link: "https://e-commerce-ten-livid-88.vercel.app/"
+                  },
+                  {
+                      name: "Portfolio Website",
+                      description: "Personal portfolio built with React showcasing skills, projects, and contact details.",
+                      image: portfolio,
+                      link: "https://portfolio-website-iota-two-13.vercel.app/"
+                  },
+                  {
+                      name:"Auth-App",
+                      description:"Note: this app is in the  making sometime soon this will end",
+                      image:authPage,
+                      link:"not ready yet"
+                  }
+              ];
     return (
         <>
             <div className='home-container'>
@@ -142,7 +165,69 @@ const Home = () => {
                 </div>
             </div>
 
+
+
+{/* about section */}
+<div className="projectHead"><Microscope height={36} width={36} color='white'/> Projects</div>
+            <div className="projectsWrapper" id='projects'>
+                {projects.map((project, index) => (
+                    <div className="projectCard" key={index}>
+                        <div className="projectImage">
+                            <img src={project.image} alt={project.name} />
+                        </div>
+                        <div className="projectInfo">
+                            <h2>{project.name}</h2>
+                            <p>{project.description}</p>
+                            <div className="links"><a href={project.link} target='_blank'>Go to Website</a></div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+
+
+
+
+
+
+            {/* contact section */}
+            <div className='contactContainer'>
+      <div className="contactHead">
+         <Phone height={56} width={56} fill='royalblue'/> Contact
+      </div>
+      <div className="contactSubHead">
+        Feel free to contact me — I’m always open to new opportunities, collaborations, or just a friendly chat. Whether you have a project in mind, need assistance, or simply want to connect, don’t hesitate to reach out. I’ll be happy to respond as soon as possible!
+        <div className="hline">
+          ___________________________________________________________________________________________________________________
+        </div>
+      </div>
+      <div className="iconContainer">
+        <div className="mail">
+          <div><Mail height={70} width={70} color='royalblue'/></div>
+          <div className="ContactText">
+            <div>Gmail</div>
+            bhargavdhananjaix501@gmail.com
             
+          </div>
+        </div>
+        <div className="mail">
+          <div><PhoneIcon height={70} width={70} color='royalblue'/></div>
+          <div className="ContactText">
+            <div>Whatsapp</div>
+            +91 9145807743
+            
+          </div>
+        </div>
+        <div className="mail">
+          <div><MapIcon height={70} width={70} color='royalblue'/></div>
+          <div className="ContactText">
+            <div>Address</div>
+            Murlipura Scheme, Jaipur
+            
+          </div>
+        </div>
+      </div>
+    </div>
 
         </>
     )
