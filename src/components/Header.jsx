@@ -12,13 +12,13 @@ const Header = () => {
     return (
         <nav className='navBar'>
             <div className="container">
-                <div className="img-container" onClick={()=>navigate("/")} >
+                <div className="img-container"  onClick={()=>{navigate("/"); scrollTo(0,0)}} >
                     <img src={boy} alt='' />
                 </div>
-                <div className="userIcon" onClick={()=>navigate("/about")}>
+                <div className="userIcon" onClick={()=>{navigate("/about"); scrollTo(0,0)}}>
                     <UserIcon height={25} width={25} />
                 </div>
-                <div className="Contact" onClick={()=>navigate("/contact")}>
+                <div className="Contact" onClick={()=>{navigate("/contact"); scrollTo(0,0)}}>
                     <Phone height={25} width={25} />
                 </div>
                 <div className="resume">
