@@ -217,9 +217,11 @@ p{
   .btns{
     display: flex;
   }
-
+.contactText{
+  display: none;
+}
   .background {
-    display: none;
+    /* display: none; */
   }
 
   .introText {
