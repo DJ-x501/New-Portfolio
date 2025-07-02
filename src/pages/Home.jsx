@@ -109,7 +109,7 @@ const Home = () => {
     return (
         <>
             <div className='home-container'>
-                <div className="background">MERNSTACK</div>
+                {/* <div className="background">MERNSTACK</div> */}
                 <div className="left">
                     <div className="helloText">
                         Hey there!

@@ -164,7 +164,9 @@ p{
     grid-template-columns: 1fr;
     gap: 20px;
   }
-
+.btns{
+  display: flex;
+}
   .background {
     font-size: 180px;
     top: 180px;
@@ -212,10 +214,12 @@ p{
     grid-template-columns: 1fr;
     gap: 20px;
   }
+  .btns{
+    display: flex;
+  }
 
   .background {
-    font-size: 100px;
-    top: 120px;
+    display: none;
   }
 
   .introText {
