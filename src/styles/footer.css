@@ -1,0 +1,33 @@
+.footer-container{
+    background-color: black;
+    /* box-shadow: inset 0 10px 20px gray; */
+    color: white;
+    margin: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.textHead{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.copyright{
+    color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.resume1{
+    margin-top: 15px;
+}

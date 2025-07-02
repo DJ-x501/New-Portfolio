@@ -1,0 +1,70 @@
+.education{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 60px;
+    margin-top: 100px;
+}
+.eduHead{
+    color: white;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    /* border-bottom: dotted royalblue; */
+}
+.eduContent{
+    display: flex;
+   
+    justify-content: space-evenly;
+    align-items:left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.college{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.circle{
+    border-radius: 50%;
+    box-shadow: 0 0 1px yellowgreen;
+}
+.clgDeatils{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.degName{
+    color: rgba(255,255,255,0.6);
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgba(255,255,255,0.4);
+}
+.projectsWrapper{
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.projectHead{
+    font-size: 36px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.projectCard{
+    display: flex;
+    flex-direction: column;
+}
