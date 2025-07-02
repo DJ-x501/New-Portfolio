@@ -150,3 +150,122 @@ p{
   align-items: center;
   gap: 10px;
 }
+
+
+
+
+/* responsive codes */
+
+/* For tablets and smaller screens */
+@media screen and (max-width: 1024px) {
+  .home-container {
+    margin: 0px 50px;
+    margin-top: 150px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .background {
+    font-size: 180px;
+    top: 180px;
+  }
+
+  .introText {
+    font-size: 36px;
+  }
+
+  .titleText {
+    font-size: 44px;
+  }
+
+  .icon img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about {
+    margin-left: 20px;
+    margin-top: 150px;
+  }
+
+  .aboutSubHead {
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  .wrapperSkills {
+    margin-left: 20px;
+    margin-top: 80px;
+  }
+
+  .skill-card {
+    width: 180px;
+    padding: 14px;
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 600px) {
+  .home-container {
+    margin: 0px 20px;
+    margin-top: 100px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .background {
+    font-size: 100px;
+    top: 120px;
+  }
+
+  .introText {
+    font-size: 28px;
+  }
+
+  .titleText {
+    font-size: 32px;
+  }
+
+  .icon img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .about {
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+
+  .aboutHead {
+    font-size: 28px;
+  }
+
+  .aboutSubHead {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .wrapperSkills {
+    margin-left: 10px;
+    margin-top: 60px;
+  }
+
+  .skill-card {
+    width: 150px;
+    padding: 12px;
+  }
+
+  .skillHead {
+    font-size: 28px;
+  }
+
+  .helloText {
+    font-size: 16px;
+  }
+
+  .contactText {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}

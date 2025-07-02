@@ -85,3 +85,98 @@
     height: 200px;
     width: 400px;
 }
+
+/* responsive codes */
+
+/* For tablets and smaller screens */
+@media screen and (max-width: 1024px) {
+  .education {
+    margin: 0 30px;
+    margin-top: 80px;
+  }
+
+  .eduContent {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 0px;
+    align-items: flex-start;
+  }
+
+  .eduHead {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .college {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .projectsWrapper {
+    margin: 80px 30px;
+    gap: 20px;
+  }
+
+  .projectHead {
+    font-size: 28px;
+    margin-top: 60px;
+  }
+
+  .projectCard {
+    max-width: 90%;
+  }
+
+  .projectImage img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* For mobile screens */
+@media screen and (max-width: 600px) {
+  .education {
+    margin: 0 15px;
+    margin-top: 60px;
+  }
+
+  .eduHead {
+    font-size: 24px;
+  }
+
+  .eduContent {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .college {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .clgDeatils {
+    font-size: 14px;
+  }
+
+  .projectsWrapper {
+    margin: 60px 15px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .projectHead {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  .projectCard {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .projectImage img {
+    width: 100%;
+    height: auto;
+  }
+}
