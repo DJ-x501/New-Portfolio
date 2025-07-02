@@ -197,9 +197,9 @@ const Home = () => {
       </div>
       <div className="contactSubHead">
         Feel free to contact me — I’m always open to new opportunities, collaborations, or just a friendly chat. Whether you have a project in mind, need assistance, or simply want to connect, don’t hesitate to reach out. I’ll be happy to respond as soon as possible!
-        <div className="hline">
+        {/* <div className="hline">
           ___________________________________________________________________________________________________________________
-        </div>
+        </div> */}
       </div>
       <div className="iconContainer">
         <div className="mail">
