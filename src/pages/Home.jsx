@@ -17,6 +17,7 @@ import profile from '../assets/profile.jpg';
 import eCommerce from '../assets/e-commerce.png';
 import portfolio from '../assets/portfolio.png';
 import authPage from  '../assets/authPage.png';
+import movieTicket from '../assets/movieTicket.png';
 
 const Home = () => {
     const skills = [
@@ -94,10 +95,10 @@ const Home = () => {
                       link: "https://e-commerce-ten-livid-88.vercel.app/"
                   },
                   {
-                      name: "Portfolio Website",
-                      description: "Personal portfolio built with React showcasing skills, projects, and contact details.",
-                      image: portfolio,
-                      link: "https://portfolio-website-iota-two-13.vercel.app/"
+                      name: "Movie Ticket Booking",
+                      description: "This is a movie ticket booking website for helping users book their favorite show online.",
+                      image: movieTicket,
+                      link: "https://https://ticket-booking-teal.vercel.app/-website-iota-two-13.vercel.app/"
                   },
                   {
                       name:"Auth-App",
