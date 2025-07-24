@@ -104,7 +104,7 @@ const Home = () => {
                       name:"Auth-App",
                       description:"Note: this app is in the  making sometime soon this will end",
                       image:authPage,
-                      link:"not ready yet"
+                      link:"https://auth-page-three.vercel.app/"
                   }
               ];
     return (
