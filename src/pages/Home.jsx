@@ -121,12 +121,12 @@ const Home = () => {
                     <div className="titleText">
                         Mern Stack Developer
                     </div>
-                    <div className="contactText">
+                    {/* <div className="contactText">
                         <button className='btns'><Phone fill='white' color='black' /></button>
                         <button className='btns'><Mails fill='white' color='black' /></button>
                         <button className='btns'><Linkedin fill='white' color='black' /></button>
                         <button className='btns'><GitBranch fill='white' color='black' /></button>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="right">
                     <div className="icon">
