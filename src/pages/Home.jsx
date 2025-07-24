@@ -98,7 +98,7 @@ const Home = () => {
                       name: "Movie Ticket Booking",
                       description: "This is a movie ticket booking website for helping users book their favorite show online.",
                       image: movieTicket,
-                      link: "https://https://ticket-booking-teal.vercel.app/-website-iota-two-13.vercel.app/"
+                      link: "https://ticket-booking-teal.vercel.app/"
                   },
                   {
                       name:"Auth-App",
